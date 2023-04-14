@@ -79,7 +79,7 @@ document.querySelector(".form").addEventListener("submit", (e) => {
     let email = document.querySelector(".pEmail");
     let message = document.querySelector(".message");
     let subject = document.querySelector(".iSubject");
-    fetch("http://localhost:5000/sendemail", {
+    fetch("https://sahil2622.onrender.com/sendemail", {
         method: "POST",
         // mode: 'no-cors',
         body: JSON.stringify({
